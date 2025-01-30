@@ -91,4 +91,3 @@ checkAvailabilityButton.addEventListener("click", checkTotalAvailability);
 
 // initialize on page load
 initialize();
-dawdadawdawdsaddadawddsadsa
