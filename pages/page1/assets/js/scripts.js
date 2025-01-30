@@ -48,6 +48,7 @@ function updateSeatDisplay(busId) {
 function reserveSeat(busId, seatIndex, seatElement) {
     const selectedBus = buses.find(bus => bus.id === parseInt(busId));
 
+// asks for the name of the user
     if (!selectedBus.seats[seatIndex]) {
         const userName = prompt("Enter your name:");
         const reservationNumber = generateReservationNumber();
@@ -90,3 +91,4 @@ checkAvailabilityButton.addEventListener("click", checkTotalAvailability);
 
 // initialize on page load
 initialize();
+dawdadawdawdsaddadawddsadsa
