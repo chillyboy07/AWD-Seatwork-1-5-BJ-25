@@ -4,7 +4,7 @@ body {
     padding: 0;
     font-family: Poppins, sans-serif;
 
-/* navbar  */
+/* NAVBAR  */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ body {
     text-decoration: underline;
 }
 
-/* header image */
+/* HEADER IMAGE */
 .header {
     width: 100%;
     height: 40vh;
@@ -55,7 +55,7 @@ body {
     top: -20%;
 }
 
-/* bus section */
+/* BUS SECTION */
 .bus-section {
     display: flex;
     justify-content: space-around;
@@ -107,7 +107,7 @@ body {
     background-color: #e6b800;
 }
 
-/* footer */
+/* FOOTER */
 footer {
     background-color: #333333;
     color: #ffffff;
