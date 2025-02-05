@@ -109,6 +109,29 @@ p {
     animation: fadeInUp 2s ease-in-out;
 }
 
+/* BUTTON STYLING */
+.btn {
+    display: inline-block;
+    background-color: #ff4500;
+    color: white;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.btn:hover {
+    background-color: #ff5733;
+    transform: scale(1.05);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
+}
+
 /* FOOTER */
 footer {
     background-color: #1a1a1a;
