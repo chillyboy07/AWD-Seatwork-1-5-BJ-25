@@ -25,6 +25,10 @@ html, body {
     position: relative;
 }
 
+.navbar a {
+    text-decoration: none;
+}
+
 .logo {
     font-size: 1.8em;
     font-weight: bold;
