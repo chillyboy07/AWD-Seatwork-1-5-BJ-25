@@ -24,6 +24,7 @@ html, body {
     background-color: #1a1a1a;
     padding: 15px 20px;
     position: relative;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .logo {
