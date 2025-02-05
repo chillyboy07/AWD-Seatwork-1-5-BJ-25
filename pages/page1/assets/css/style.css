@@ -23,6 +23,7 @@ html, body {
     background-color: #1a1a1a;
     padding: 15px 20px;
     position: relative;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .navbar a {
@@ -33,6 +34,11 @@ html, body {
     font-size: 1.8em;
     font-weight: bold;
     color: #e6b800;
+    transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .nav-links {
