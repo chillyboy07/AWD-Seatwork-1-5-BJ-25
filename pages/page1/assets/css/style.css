@@ -105,14 +105,14 @@ html, body {
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-.bus-box:hover {
-    transform: translateY(-10px);
-    background-color: #30302f;
-}
-
 .bus-box h2 {
     font-size: 1.5em;
     color: #e6b800;
+    transition: color 0.3s ease;
+}
+
+.bus-box:hover h2 {
+    color: #cc9f00;
 }
 
 .place-image {
