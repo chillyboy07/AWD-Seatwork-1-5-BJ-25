@@ -100,11 +100,14 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
     background-color: #292410;
+    transform: translateY(-5px);
 }
+
 
 /* FOOTER */
 footer {
