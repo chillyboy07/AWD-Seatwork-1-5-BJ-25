@@ -56,7 +56,7 @@ html, body {
 
 /* CONTAINER */
 .container {
-    background-color: #e6b800;
+    background-color: #cc9f00;
     width: 80%;
     max-width: 500px;
     margin: 2rem auto;
@@ -88,7 +88,7 @@ button {
 }
 
 button:hover {
-    background-color: #333;
+    background-color: #292410;
 }
 
 /* FOOTER */
