@@ -54,6 +54,7 @@ html, body {
     transform: translateY(-2px);
 }
 
+/* CONTAINER */
 .container {
     background-color: #e6b800;
     width: 80%;
