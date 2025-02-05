@@ -93,6 +93,7 @@ html, body {
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
+    animation: fadeInUp 1s ease-in-out; /* Animation for bus section */
 }
 
 .bus-box {
@@ -103,6 +104,11 @@ html, body {
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bus-box:hover {
+    transform: translateY(-10px);
+    background-color: #30302f;
 }
 
 .bus-box h2 {
