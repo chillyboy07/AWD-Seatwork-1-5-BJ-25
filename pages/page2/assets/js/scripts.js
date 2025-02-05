@@ -15,4 +15,17 @@ function reserveSeat() {
         return;
     }
 
+    // if no bus selected
+    if (selectedBus === "") {
+        alert("Please select a bus for your trip.");
+        return;
+    }
+
+    // if no seat selected
+    if (selectedSeat === "") {
+        alert("Please select a seat number.");
+        return;
+    }
+
+
 }
