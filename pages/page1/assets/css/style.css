@@ -139,8 +139,6 @@ html, body {
     transform: scale(1.05);
 }
 
-
-
 .bus-box p {
     font-size: 1.1em;
     color: white;
@@ -160,11 +158,12 @@ html, body {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .reserve-btn:hover {
     background-color: #cc9f00;
+    transform: translateY(-5px);
 }
 
 /* FOOTER */
