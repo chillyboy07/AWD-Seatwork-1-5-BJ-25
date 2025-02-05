@@ -4,10 +4,30 @@ let seats = {
     bus3: [true, true, true, true, true]
 };
 
+// load data from localStorage if available
+let selectedBus = localStorage.getItem('selectedBus');
+let selectedSeat = localStorage.getItem('selectedSeat');
+let userName = localStorage.getItem('userName');
+let paymentStatus = localStorage.getItem('paymentStatus');
+
+// update the UI based on localStorage data
+if (selectedBus && selectedSeat && userName) {
+    document.getElementById("bus-select").value = selectedBus;
+    document.getElementById("seat-select").value = selectedSeat;
+    document.getElementById("name-input").value = userName;
+    document.getElementById("message").textContent = `✅ Seat ${selectedSeat} reserved for ${userName}. ${paymentStatus === 'confirmed' ? 'Payment confirmed!' : 'Proceed to payment.'}`;
+
+    if (paymentStatus === 'confirmed') {
+        document.getElementById("payment-section").style.display = "none";
+    } else {
+        document.getElementById("payment-section").style.display = "block";
+    }
+}
+
 function reserveSeat() {
-    let userName = document.getElementById("name-input").value.trim();
-    let selectedBus = document.getElementById("bus-select").value;
-    let selectedSeat = document.getElementById("seat-select").value;
+    userName = document.getElementById("name-input").value.trim();
+    selectedBus = document.getElementById("bus-select").value;
+    selectedSeat = document.getElementById("seat-select").value;
 
     // if name is empty
     if (userName === "") {
@@ -32,6 +52,13 @@ function reserveSeat() {
     // if the seat is available
     if (seats[selectedBus][seatIndex]) {
         seats[selectedBus][seatIndex] = false;
+
+        // save data to localStorage
+        localStorage.setItem('selectedBus', selectedBus);
+        localStorage.setItem('selectedSeat', selectedSeat);
+        localStorage.setItem('userName', userName);
+        localStorage.setItem('paymentStatus', 'pending');
+
         document.getElementById("message").textContent = `✅ Seat ${seatIndex + 1} reserved for ${userName}. Proceed to payment.`;
         document.getElementById("payment-section").style.display = "block";
     } else {
@@ -47,12 +74,39 @@ function confirmPayment() {
         return;
     }
 
-    document.getElementById("message").textContent = `✅ Payment successful! Seat ${selectedSeat + 1} is confirmed for ${userName} on ${selectedBus.replace('bus', 'Bus ')}.`;
+    if (refNumber.length !== 8) {
+        alert("Please enter a valid 8-character GCash reference number.");
+        return;
+    }
+
+    // confirmation message
+    alert(`✅ Payment successful! Seat ${selectedSeat} is confirmed for ${userName} on ${selectedBus.replace('bus', 'Bus ')}.`);
+
+    // hide payment section after confirmation
     document.getElementById("payment-section").style.display = "none";
+
+    // update localStorage with payment status
+    localStorage.setItem('paymentStatus', 'confirmed');
+
+    // display final confirmation message
+    document.getElementById("message").textContent = `✅ Payment successful! Seat ${selectedSeat} is confirmed for ${userName} on ${selectedBus.replace('bus', 'Bus ')}.`;
 }
 
 function cancelPayment() {
-    seats[selectedBus][selectedSeat] = true;
-    document.getElementById("message").textContent = `❌ Payment was canceled. Seat ${selectedSeat + 1} is now available again.`;
+    seats[selectedBus][selectedSeat - 1] = true; // Adjusts seat index
+    alert(`❌ Payment was canceled. Seat ${selectedSeat} is now available again.`);
+
+    // hide payment section after cancellation
     document.getElementById("payment-section").style.display = "none";
+
+    // update localStorage to reflect that the payment was canceled
+    localStorage.setItem('paymentStatus', 'canceled');
+
+    // display cancellation message
+    document.getElementById("message").textContent = `❌ Payment was canceled. Seat ${selectedSeat} is now available again.`;
+
+    // reset localStorage data after cancellation
+    localStorage.removeItem('selectedBus');
+    localStorage.removeItem('selectedSeat');
+    localStorage.removeItem('userName');
 }
