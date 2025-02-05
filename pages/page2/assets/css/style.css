@@ -12,6 +12,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    text-align: center;
     padding: 0;
 }
 
