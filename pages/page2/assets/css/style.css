@@ -52,3 +52,72 @@ html, body {
     color: #e6b800;
     transform: translateY(-2px);
 }
+
+
+
+/* FOOTER */
+footer {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact-info, .social-media, .quick-links, .copyright {
+    margin: 10px;
+}
+
+.contact-info p {
+    font-size: 1em;
+    margin: 3px 0;
+}
+
+.social-media a {
+    margin: 8px;
+    color: white;
+    font-size: 1.3em;
+    transition: color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #cc9f00;
+}
+
+.social-media img {
+    width: 25px;
+    height: 25px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin: 3px 0;
+}
+
+.quick-links a {
+    color: #f1f1f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: #cc9f00;
+}
+
+.copyright p {
+    font-size: 0.8em;
+    margin-top: 10px;
+}
