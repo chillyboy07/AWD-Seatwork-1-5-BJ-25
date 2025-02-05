@@ -9,6 +9,8 @@ body {
     min-height: 100vh;
     overflow-x: hidden;
     animation: fadeIn 1.5s ease-in-out;
+    background: url(../img/bglp.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
 
 /* FADE-IN ANIMATION */
@@ -116,7 +118,7 @@ p {
 /* BUTTON STYLING */
 .btn {
     display: inline-block;
-    background-color: #ff4500;
+    background-color: #e6b800;
     color: white;
     font-size: 1.2em;
     padding: 12px 25px;
@@ -131,7 +133,7 @@ p {
 }
 
 .btn:hover {
-    background-color: #ff5733;
+    background-color: #cc9f00;
     transform: scale(1.05);
     box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.3);
 }
