@@ -80,6 +80,11 @@ html, body {
     top: 0;
     left: 0;
     filter: brightness(70%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.header-image:hover {
+    filter: brightness(88%);
 }
 
 /* BUS SECTION */
