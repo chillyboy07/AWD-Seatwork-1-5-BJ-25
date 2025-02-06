@@ -68,18 +68,12 @@ Project Overview
 The Bus Reservation System is a web-based application designed to allow users to reserve seats for bus trips. The system provides a user-friendly interface to select bus trips, choose seats, and confirm reservations with a payment verification feature using GCash.
 
 ## Features
-Features
 
 - Landing Page: Includes a welcome screen and a button to proceed to the homepage.
-
 - Navigation Bar: Contains links to Home and Reserve a Seat pages.
-
 - Seat Reservation: Allows users to enter their name, select a bus trip, and choose a seat.
-
 - GCash Payment Confirmation: Users can enter a reference number after making a payment.
-
 - Local Storage: Stores user reservation details and payment status to maintain session data.
-
 - Responsive UI: Optimized for different screen sizes with smooth animations and styling.
 
 ### Key Components
@@ -116,7 +110,7 @@ AWD-Seatwork-1-5-BJ-25
 |   └─ img
 |      └─ bglp.png
 └─ pages
-|  └─ Home
+|  └─ page1
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
@@ -126,8 +120,7 @@ AWD-Seatwork-1-5-BJ-25
 |  |  |     └─ japan.jpg
 |  |  |     └─ korea.jpg
 |  |  └─ index.html
-|  |
-|  └─ Reserve
+|  └─ page2
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
