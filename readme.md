@@ -61,11 +61,9 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-Bus Reservation System
+The Bus Reservation System is a web-based platform that allows users to reserve bus seats for various trips. The system provides an easy-to-use interface for selecting trips, choosing seats, and confirming reservations via GCash payment verification.
 
-Project Overview
-
-The Bus Reservation System is a web-based application designed to allow users to reserve seats for bus trips. The system provides a user-friendly interface to select bus trips, choose seats, and confirm reservations with a payment verification feature using GCash.
+Purpose of the project is to aim simplicity in bus seat reservations by offering an online platform for users to select trips, choose seats, and verify payments, making the process more convenient and efficient.
 
 ## Features
 
