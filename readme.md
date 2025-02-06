@@ -72,7 +72,6 @@ Purpose of the project is to aim simplicity in bus seat reservations by offering
 - Seat Reservation: Allows users to enter their name, select a bus trip, and choose a seat.
 - GCash Payment Confirmation: Users can enter a reference number after making a payment.
 - Local Storage: Stores user reservation details and payment status to maintain session data.
-- Responsive UI: Optimized for different screen sizes with smooth animations and styling.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
