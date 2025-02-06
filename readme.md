@@ -9,18 +9,18 @@
     <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Bus Reservation</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  A 3 Bus Reservation that offers nationwide trips featuring Japan, Korea, and Dubai.
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=chillyboy07/AWD-Seatwork-1-5-BJ-25)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
 
@@ -36,6 +36,9 @@
     <li>
       <a href="#overview">Overview</a>
       <ol>
+       <li>
+          <a href="#features">Features</a>
+        </li>
         <li>
           <a href="#key-components">Key Components</a>
         </li>
@@ -58,21 +61,35 @@
 ## Overview
 
 <!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+Bus Reservation System
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Project Overview
+
+The Bus Reservation System is a web-based application designed to allow users to reserve seats for bus trips. The system provides a user-friendly interface to select bus trips, choose seats, and confirm reservations with a payment verification feature using GCash.
+
+## Features
+Features
+
+- Landing Page: Includes a welcome screen and a button to proceed to the homepage.
+
+- Navigation Bar: Contains links to Home and Reserve a Seat pages.
+
+- Seat Reservation: Allows users to enter their name, select a bus trip, and choose a seat.
+
+- GCash Payment Confirmation: Users can enter a reference number after making a payment.
+
+- Local Storage: Stores user reservation details and payment status to maintain session data.
+
+- Responsive UI: Optimized for different screen sizes with smooth animations and styling.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Bus Trip Selection Page
+- Seat Reservation
+- Confirmation System
+- CSS animations and styling
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -92,23 +109,30 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+AWD-Seatwork-1-5-BJ-25
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|      └─ bglp.png
 └─ pages
-|  └─ pageName
+|  └─ Home
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |     └─ bg.jpg
+|  |  |     └─ dubai.jpg
+|  |  |     └─ japan.jpg
+|  |  |     └─ korea.jpg
+|  |  └─ index.html
+|  |
+|  └─ Reserve
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
 |     |  └─ js
-|     |     └─ script.js
+|     |     └─ script.jpg
 |     └─ index.html
 └─ index.html
 └─ readme.md
@@ -119,4 +143,5 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| W3Schools | To learn the code along with their functionality. | https://www.w3schools.com |
+| Fontawesome | To get font stlyes that serves as symbols. | https://fontawesome.com |
