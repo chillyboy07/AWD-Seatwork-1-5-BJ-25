@@ -5,21 +5,16 @@
 <br />
 <div align="center">
   <a href="https://github.com/chillyboy07/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/dumbobody.png"" alt="Dumbo" width="130" height="100">
+    <img src="./assets/img/dumbobody.png"" alt="Dumbo" width="160" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Bus Reservation</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
   A 3 Bus Reservation that offers nationwide trips featuring Japan, Korea, and Dubai.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![](https://visit-counter.vercel.app/counter.png?page=chillyboy07/AWD-Seatwork-1-5-BJ-25)
 
 [![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
@@ -29,7 +24,6 @@
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -60,7 +54,6 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
 The Bus Reservation System is a web-based platform that allows users to reserve bus seats for various trips. The system provides an easy-to-use interface for selecting trips, choosing seats, and confirming reservations via GCash payment verification.
 
 Purpose of the project is to aim simplicity in bus seat reservations by offering an online platform for users to select trips, choose seats, and verify payments, making the process more convenient and efficient.
@@ -74,8 +67,6 @@ Purpose of the project is to aim simplicity in bus seat reservations by offering
 - Local Storage: Stores user reservation details and payment status to maintain session data.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website
 - Bus Trip Selection Page
 - Seat Reservation
@@ -83,7 +74,6 @@ Purpose of the project is to aim simplicity in bus seat reservations by offering
 - CSS animations and styling
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -125,7 +115,6 @@ AWD-Seatwork-1-5-BJ-25
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | W3Schools | To learn the code along with their functionality. | https://www.w3schools.com |
