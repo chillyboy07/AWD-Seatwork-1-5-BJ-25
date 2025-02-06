@@ -93,7 +93,7 @@ html, body {
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
-    animation: fadeInUp 1s ease-in-out; /* Animation for bus section */
+    animation: fadeInUp 1s ease-in-out;
 }
 
 .bus-box {
@@ -174,7 +174,7 @@ footer {
     text-align: center;
     width: 100%;
     margin-top: auto;
-    animation: fadeIn 1s ease-in-out; /* Added fade-in effect */
+    animation: fadeIn 1s ease-in-out;
 }
 
 .footer-container {
@@ -184,7 +184,7 @@ footer {
     align-items: center;
 }
 
-/* Contact Info, Social Media, Quick Links, Copyright */
+/* contact info */
 .contact-info, .social-media, .quick-links, .copyright {
     margin: 10px;
 }
@@ -198,13 +198,13 @@ footer {
     margin: 8px;
     color: white;
     font-size: 1.3em;
-    transition: color 0.3s ease, transform 0.3s ease; /* Social media hover effect */
+    transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
 }
 
 .social-media a:hover {
     color: #cc9f00;
-    transform: translateY(-3px); /* Hover effect for social media links */
+    transform: translateY(-3px);
 }
 
 .social-media img {
