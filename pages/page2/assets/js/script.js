@@ -93,7 +93,7 @@ function confirmPayment() {
 }
 
 function cancelPayment() {
-    seats[selectedBus][selectedSeat - 1] = true; // Adjusts seat index
+    seats[selectedBus][selectedSeat - 1] = true; // adjusts seat index
     alert(`❌ Payment was canceled. Seat ${selectedSeat} is now available again.`);
 
     // hide payment section after cancellation
